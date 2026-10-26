@@ -10,6 +10,10 @@ You only do this once. It takes about 15 minutes.
 
 This repo is private.
 
+**Signing in with the Sanavia support GitHub account (`Sanaviawater`)?** It owns this repo, so skip this step. Just sign in to GitHub with it when Claude asks in step 4.
+
+Using your own GitHub account instead:
+
 1. If you don't have a GitHub account, make a free one at [github.com/signup](https://github.com/signup).
 2. Send your GitHub username to the Sanavia account owner. They add you under **Settings → Collaborators → Add people**.
 3. Accept the invite. It arrives by email, or appears at [github.com/notifications](https://github.com/notifications). **Setup won't work until you accept it.**
@@ -37,7 +41,7 @@ Download it from [claude.ai/download](https://claude.ai/download) and sign in to
 
    > Clone https://github.com/Sanaviawater/claude-videos into ~/Documents/claude-videos. It's a Remotion video project. Then run npm install and npm run dev to open Remotion Studio in my browser.
 
-5. Approve when Claude asks to run commands. If it asks you to sign in to GitHub, sign in as **your own** GitHub account, the one that accepted the invite.
+5. Approve when Claude asks to run commands. If it asks you to sign in to GitHub, sign in with **Sanaviawater** (the support account), or with the account that accepted the invite.
 
 When it's done, **Remotion Studio** opens in your browser. That's where you watch videos as they're built.
 
@@ -70,7 +74,7 @@ When it's done, **Remotion Studio** opens in your browser. That's where you watc
 
 ## If something goes wrong
 
-- **"Repository not found" when cloning:** you either haven't accepted the GitHub invite yet, or your Mac is signed in to a different GitHub account. Tell Claude: "Sign me in to GitHub with gh auth login", then sign in with the account that was invited.
+- **"Repository not found" when cloning:** you either haven't accepted the GitHub invite yet, or your Mac is signed in to a different GitHub account. Tell Claude: "Sign me in to GitHub with gh auth login", then sign in with **Sanaviawater** or the account that was invited.
 - **Studio isn't showing up:** tell Claude "start the preview" (it runs `npm run dev`).
 - **A "vulnerabilities" warning during install:** normal for a tool that only runs on your computer. Ignore it.
 
